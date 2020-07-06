@@ -36,13 +36,13 @@ The REST API to the europeana app is described below.
 
 ### Response
 
-    Request URL: http://localhost:8080/v2/beers/getAllBeers
+    Request URL: http://localhost:8080/service/upperNumber/set?upperNumber=25
     Request Method: POST
     Status Code: 200 
     Remote Address: [::1]:8080
     
 
-## Get beer by ID
+## Get Least Common Multiple
 ### Request
 
 `GET /service/math/getLeastCommonMultiple`
